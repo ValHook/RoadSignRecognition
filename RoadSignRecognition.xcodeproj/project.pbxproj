@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A74A976419CD9B9900B5D1D5 /* ihls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A74A975E19CD9B9900B5D1D5 /* ihls.cpp */; };
+		A74A976519CD9B9900B5D1D5 /* math_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A74A976019CD9B9900B5D1D5 /* math_utils.cpp */; };
+		A74A976619CD9B9900B5D1D5 /* nhs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A74A976219CD9B9900B5D1D5 /* nhs.cpp */; };
+		A74A976D19CD9CAA00B5D1D5 /* PostProcessing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A74A976B19CD9CAA00B5D1D5 /* PostProcessing.cpp */; };
+		A74A977119CD9D5600B5D1D5 /* RotationalOffset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A74A976F19CD9D5600B5D1D5 /* RotationalOffset.cpp */; };
+		A74A977319CD9F5000B5D1D5 /* libopencv_imgproc.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A74A977219CD9F5000B5D1D5 /* libopencv_imgproc.2.4.9.dylib */; };
+		A74A977519CF74B400B5D1D5 /* libtesseract.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A74A977419CF74B400B5D1D5 /* libtesseract.3.dylib */; };
+		A7E13D1119CAB8EE00A61649 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7E13D1019CAB8EE00A61649 /* main.cpp */; };
+		A7E13D1F19CABD3C00A61649 /* libopencv_core.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E13D1D19CABD3C00A61649 /* libopencv_core.2.4.9.dylib */; };
+		A7E13D2019CABD3C00A61649 /* libopencv_highgui.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E13D1E19CABD3C00A61649 /* libopencv_highgui.2.4.9.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7E13D0B19CAB8EE00A61649 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A74A975E19CD9B9900B5D1D5 /* ihls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ihls.cpp; path = RoadSignRecognition/ihls_nhs/ihls.cpp; sourceTree = "<group>"; };
+		A74A975F19CD9B9900B5D1D5 /* ihls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ihls.h; path = RoadSignRecognition/ihls_nhs/ihls.h; sourceTree = "<group>"; };
+		A74A976019CD9B9900B5D1D5 /* math_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = math_utils.cpp; path = RoadSignRecognition/ihls_nhs/math_utils.cpp; sourceTree = "<group>"; };
+		A74A976119CD9B9900B5D1D5 /* math_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = math_utils.h; path = RoadSignRecognition/ihls_nhs/math_utils.h; sourceTree = "<group>"; };
+		A74A976219CD9B9900B5D1D5 /* nhs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nhs.cpp; path = RoadSignRecognition/ihls_nhs/nhs.cpp; sourceTree = "<group>"; };
+		A74A976319CD9B9900B5D1D5 /* nhs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nhs.h; path = RoadSignRecognition/ihls_nhs/nhs.h; sourceTree = "<group>"; };
+		A74A976B19CD9CAA00B5D1D5 /* PostProcessing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PostProcessing.cpp; path = RoadSignRecognition/post_processing/PostProcessing.cpp; sourceTree = "<group>"; };
+		A74A976C19CD9CAA00B5D1D5 /* PostProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostProcessing.h; path = RoadSignRecognition/post_processing/PostProcessing.h; sourceTree = "<group>"; };
+		A74A976F19CD9D5600B5D1D5 /* RotationalOffset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RotationalOffset.cpp; path = RoadSignRecognition/RotationalOffset/RotationalOffset.cpp; sourceTree = "<group>"; };
+		A74A977019CD9D5600B5D1D5 /* RotationalOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotationalOffset.h; path = RoadSignRecognition/RotationalOffset/RotationalOffset.h; sourceTree = "<group>"; };
+		A74A977219CD9F5000B5D1D5 /* libopencv_imgproc.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.9.dylib; path = ../../../../../usr/local/lib/libopencv_imgproc.2.4.9.dylib; sourceTree = "<group>"; };
+		A74A977419CF74B400B5D1D5 /* libtesseract.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtesseract.3.dylib; path = /usr/local/Cellar/tesseract/3.02.02_2/lib/libtesseract.3.dylib; sourceTree = "<absolute>"; };
+		A7E13D0D19CAB8EE00A61649 /* RoadSignRecognition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RoadSignRecognition; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E13D1019CAB8EE00A61649 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A7E13D1D19CABD3C00A61649 /* libopencv_core.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.9.dylib; path = /usr/local/lib/libopencv_core.2.4.9.dylib; sourceTree = "<absolute>"; };
+		A7E13D1E19CABD3C00A61649 /* libopencv_highgui.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.9.dylib; path = /usr/local/lib/libopencv_highgui.2.4.9.dylib; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7E13D0A19CAB8EE00A61649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74A977519CF74B400B5D1D5 /* libtesseract.3.dylib in Frameworks */,
+				A74A977319CD9F5000B5D1D5 /* libopencv_imgproc.2.4.9.dylib in Frameworks */,
+				A7E13D2019CABD3C00A61649 /* libopencv_highgui.2.4.9.dylib in Frameworks */,
+				A7E13D1F19CABD3C00A61649 /* libopencv_core.2.4.9.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A74A976719CD9BAF00B5D1D5 /* IHLS & NHS */ = {
+			isa = PBXGroup;
+			children = (
+				A74A975E19CD9B9900B5D1D5 /* ihls.cpp */,
+				A74A975F19CD9B9900B5D1D5 /* ihls.h */,
+				A74A976019CD9B9900B5D1D5 /* math_utils.cpp */,
+				A74A976119CD9B9900B5D1D5 /* math_utils.h */,
+				A74A976219CD9B9900B5D1D5 /* nhs.cpp */,
+				A74A976319CD9B9900B5D1D5 /* nhs.h */,
+			);
+			name = "IHLS & NHS";
+			sourceTree = "<group>";
+		};
+		A74A976819CD9BC400B5D1D5 /* Dynamic Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A74A977219CD9F5000B5D1D5 /* libopencv_imgproc.2.4.9.dylib */,
+				A7E13D1D19CABD3C00A61649 /* libopencv_core.2.4.9.dylib */,
+				A7E13D1E19CABD3C00A61649 /* libopencv_highgui.2.4.9.dylib */,
+				A74A977419CF74B400B5D1D5 /* libtesseract.3.dylib */,
+			);
+			name = "Dynamic Libraries";
+			sourceTree = "<group>";
+		};
+		A74A976A19CD9C9500B5D1D5 /* Post Processing */ = {
+			isa = PBXGroup;
+			children = (
+				A74A976B19CD9CAA00B5D1D5 /* PostProcessing.cpp */,
+				A74A976C19CD9CAA00B5D1D5 /* PostProcessing.h */,
+			);
+			name = "Post Processing";
+			sourceTree = "<group>";
+		};
+		A74A976E19CD9D3C00B5D1D5 /* Rotationnal Offset */ = {
+			isa = PBXGroup;
+			children = (
+				A74A976F19CD9D5600B5D1D5 /* RotationalOffset.cpp */,
+				A74A977019CD9D5600B5D1D5 /* RotationalOffset.h */,
+			);
+			name = "Rotationnal Offset";
+			sourceTree = "<group>";
+		};
+		A7E13D0419CAB8EE00A61649 = {
+			isa = PBXGroup;
+			children = (
+				A74A976E19CD9D3C00B5D1D5 /* Rotationnal Offset */,
+				A74A976719CD9BAF00B5D1D5 /* IHLS & NHS */,
+				A74A976A19CD9C9500B5D1D5 /* Post Processing */,
+				A7E13D0F19CAB8EE00A61649 /* RoadSignRecognition */,
+				A74A976819CD9BC400B5D1D5 /* Dynamic Libraries */,
+				A7E13D0E19CAB8EE00A61649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7E13D0E19CAB8EE00A61649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7E13D0D19CAB8EE00A61649 /* RoadSignRecognition */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7E13D0F19CAB8EE00A61649 /* RoadSignRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				A7E13D1019CAB8EE00A61649 /* main.cpp */,
+			);
+			path = RoadSignRecognition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7E13D0C19CAB8EE00A61649 /* RoadSignRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E13D1619CAB8EF00A61649 /* Build configuration list for PBXNativeTarget "RoadSignRecognition" */;
+			buildPhases = (
+				A7E13D0919CAB8EE00A61649 /* Sources */,
+				A7E13D0A19CAB8EE00A61649 /* Frameworks */,
+				A7E13D0B19CAB8EE00A61649 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadSignRecognition;
+			productName = RoadSignRecognition;
+			productReference = A7E13D0D19CAB8EE00A61649 /* RoadSignRecognition */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7E13D0519CAB8EE00A61649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = valhook;
+			};
+			buildConfigurationList = A7E13D0819CAB8EE00A61649 /* Build configuration list for PBXProject "RoadSignRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7E13D0419CAB8EE00A61649;
+			productRefGroup = A7E13D0E19CAB8EE00A61649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7E13D0C19CAB8EE00A61649 /* RoadSignRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7E13D0919CAB8EE00A61649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E13D1119CAB8EE00A61649 /* main.cpp in Sources */,
+				A74A976D19CD9CAA00B5D1D5 /* PostProcessing.cpp in Sources */,
+				A74A976619CD9B9900B5D1D5 /* nhs.cpp in Sources */,
+				A74A977119CD9D5600B5D1D5 /* RotationalOffset.cpp in Sources */,
+				A74A976419CD9B9900B5D1D5 /* ihls.cpp in Sources */,
+				A74A976519CD9B9900B5D1D5 /* math_utils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7E13D1419CAB8EE00A61649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7E13D1519CAB8EE00A61649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7E13D1719CAB8EF00A61649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					/usr/local/include/opencv/,
+					/usr/local/include/opencv2/imgproc/,
+					/usr/local/include/opencv2/highgui/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/tesseract/3.02.02_2/lib,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7E13D1819CAB8EF00A61649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					/usr/local/include/opencv/,
+					/usr/local/include/opencv2/imgproc/,
+					/usr/local/include/opencv2/highgui/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/tesseract/3.02.02_2/lib,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7E13D0819CAB8EE00A61649 /* Build configuration list for PBXProject "RoadSignRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E13D1419CAB8EE00A61649 /* Debug */,
+				A7E13D1519CAB8EE00A61649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E13D1619CAB8EF00A61649 /* Build configuration list for PBXNativeTarget "RoadSignRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E13D1719CAB8EF00A61649 /* Debug */,
+				A7E13D1819CAB8EF00A61649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7E13D0519CAB8EE00A61649 /* Project object */;
+}

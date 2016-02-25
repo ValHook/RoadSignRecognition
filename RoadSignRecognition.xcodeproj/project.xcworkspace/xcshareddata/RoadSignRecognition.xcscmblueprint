@@ -1,0 +1,42 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B5488CBB687395E5BB812DB714C21E6FBE5ED14",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "711acd62-a9e1-c373-c03c-dfc2232d3d9e++2015" : {
+
+    },
+    "711acd62-a9e1-c373-c03c-dfc2232d3d9e++9316" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "711acd62-a9e1-c373-c03c-dfc2232d3d9e++2015" : 0,
+    "8B5488CBB687395E5BB812DB714C21E6FBE5ED14" : 0,
+    "711acd62-a9e1-c373-c03c-dfc2232d3d9e++9316" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3CABE405-18C8-4B75-853D-097BD80CFA83",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "711acd62-a9e1-c373-c03c-dfc2232d3d9e++2015" : "RoadSignRecognition\/RoadSignRecognition\/RotationalOffset\/",
+    "8B5488CBB687395E5BB812DB714C21E6FBE5ED14" : "RoadSignRecognition\/",
+    "711acd62-a9e1-c373-c03c-dfc2232d3d9e++9316" : "RoadSignRecognition\/RoadSignRecognition\/post_processing\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RoadSignRecognition",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RoadSignRecognition.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/vibot6-mscv3-se.googlecode.com\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "711acd62-a9e1-c373-c03c-dfc2232d3d9e++2015"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/vibot6-mscv3-se.googlecode.com\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "711acd62-a9e1-c373-c03c-dfc2232d3d9e++9316"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/PierreJanko\/road-sign-recognition.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B5488CBB687395E5BB812DB714C21E6FBE5ED14"
+    }
+  ]
+}
